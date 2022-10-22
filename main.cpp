@@ -9,7 +9,7 @@ int main()
     for(int i=0; i<n; i++){
         cin>>a[i];
     }
-    
+    int ans=0;
     for(int i=0; i<n; i++){
         int res=1;
         int curr = a[i];
